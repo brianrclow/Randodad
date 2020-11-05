@@ -1,0 +1,6 @@
+framework module Pods_Randodad {
+  umbrella header "Pods-Randodad-umbrella.h"
+
+  export *
+  module * { export * }
+}

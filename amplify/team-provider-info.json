@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-randodad-dev-183803-authRole",
+      "UnauthRoleArn": "arn:aws:iam::610038163825:role/amplify-randodad-dev-183803-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::610038163825:role/amplify-randodad-dev-183803-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-randodad-dev-183803-deployment",
+      "UnauthRoleName": "amplify-randodad-dev-183803-unauthRole",
+      "StackName": "amplify-randodad-dev-183803",
+      "StackId": "arn:aws:cloudformation:us-west-2:610038163825:stack/amplify-randodad-dev-183803/39866420-1d75-11eb-933c-06d67766a030",
+      "AmplifyAppId": "d3e7xidkgh28b3"
+    },
+    "categories": {
+      "auth": {
+        "randodadb665526d": {}
+      }
+    }
+  }
+}

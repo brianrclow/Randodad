@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7327474B2550E32A000C6FCC /* RandodadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327474A2550E32A000C6FCC /* RandodadApp.swift */; };
+		7327474F2550E32B000C6FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7327474E2550E32B000C6FCC /* Assets.xcassets */; };
+		732747522550E32B000C6FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732747512550E32B000C6FCC /* Preview Assets.xcassets */; };
+		7327477C2550E4B8000C6FCC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327477B2550E4B8000C6FCC /* SignUpView.swift */; };
+		732747812550E6AC000C6FCC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732747802550E6AC000C6FCC /* LoginView.swift */; };
+		732747862550E74F000C6FCC /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732747852550E74F000C6FCC /* SessionView.swift */; };
+		7331173E255368AA00F0711D /* launch-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7331173D255368AA00F0711D /* launch-screen.png */; };
+		733117432553732A00F0711D /* DadJokeAPI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 733117422553732A00F0711D /* DadJokeAPI-Info.plist */; };
+		739DEAED255104BA00762BAC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739DEAEC255104BA00762BAC /* SessionManager.swift */; };
+		739DEAF2255104FC00762BAC /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739DEAF1255104FC00762BAC /* ConfirmationView.swift */; };
+		73E3B9ED2551001F0093D059 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 73E3B9EB2551001F0093D059 /* amplifyconfiguration.json */; };
+		73E3B9EE2551001F0093D059 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 73E3B9EC2551001F0093D059 /* awsconfiguration.json */; };
+		73EB432425511B3E0055C0E1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB432325511B3E0055C0E1 /* SettingsView.swift */; };
+		91C12C453C4690B9DF3E2448 /* Pods_Randodad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721E8FC4E45AA02A5A747EDF /* Pods_Randodad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732747592550E32B000C6FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7327473F2550E329000C6FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732747462550E329000C6FCC;
+			remoteInfo = Randodad;
+		};
+		732747642550E32B000C6FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7327473F2550E329000C6FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732747462550E329000C6FCC;
+			remoteInfo = Randodad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43C18795A09DA9D7958B3AE8 /* Pods-Randodad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Randodad.release.xcconfig"; path = "Target Support Files/Pods-Randodad/Pods-Randodad.release.xcconfig"; sourceTree = "<group>"; };
+		636BA8F0317CC4160612B90D /* Pods-Randodad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Randodad.debug.xcconfig"; path = "Target Support Files/Pods-Randodad/Pods-Randodad.debug.xcconfig"; sourceTree = "<group>"; };
+		721E8FC4E45AA02A5A747EDF /* Pods_Randodad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Randodad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732747472550E32A000C6FCC /* Randodad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randodad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7327474A2550E32A000C6FCC /* RandodadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandodadApp.swift; sourceTree = "<group>"; };
+		7327474E2550E32B000C6FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		732747512550E32B000C6FCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		732747532550E32B000C6FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732747582550E32B000C6FCC /* RandodadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandodadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732747632550E32B000C6FCC /* RandodadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandodadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7327477B2550E4B8000C6FCC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		732747802550E6AC000C6FCC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		732747852550E74F000C6FCC /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		7331173D255368AA00F0711D /* launch-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch-screen.png"; path = "../../Desktop/launch-screen.png"; sourceTree = "<group>"; };
+		733117422553732A00F0711D /* DadJokeAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DadJokeAPI-Info.plist"; sourceTree = "<group>"; };
+		739DEAEC255104BA00762BAC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		739DEAF1255104FC00762BAC /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		73E3B9EB2551001F0093D059 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		73E3B9EC2551001F0093D059 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		73EB432325511B3E0055C0E1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732747442550E329000C6FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C12C453C4690B9DF3E2448 /* Pods_Randodad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732747552550E32B000C6FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732747602550E32B000C6FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7327473E2550E329000C6FCC = {
+			isa = PBXGroup;
+			children = (
+				732747492550E32A000C6FCC /* Randodad */,
+				732747482550E32A000C6FCC /* Products */,
+				F783693A3DFB01508FD0173C /* Pods */,
+				DCD1929E81F8B5D820CBD651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		732747482550E32A000C6FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732747472550E32A000C6FCC /* Randodad.app */,
+				732747582550E32B000C6FCC /* RandodadTests.xctest */,
+				732747632550E32B000C6FCC /* RandodadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732747492550E32A000C6FCC /* Randodad */ = {
+			isa = PBXGroup;
+			children = (
+				7327474A2550E32A000C6FCC /* RandodadApp.swift */,
+				7327477B2550E4B8000C6FCC /* SignUpView.swift */,
+				732747802550E6AC000C6FCC /* LoginView.swift */,
+				739DEAF1255104FC00762BAC /* ConfirmationView.swift */,
+				732747852550E74F000C6FCC /* SessionView.swift */,
+				73EB432325511B3E0055C0E1 /* SettingsView.swift */,
+				739DEAEC255104BA00762BAC /* SessionManager.swift */,
+				7331173D255368AA00F0711D /* launch-screen.png */,
+				7327474E2550E32B000C6FCC /* Assets.xcassets */,
+				73E3B9EB2551001F0093D059 /* amplifyconfiguration.json */,
+				73E3B9EC2551001F0093D059 /* awsconfiguration.json */,
+				732747532550E32B000C6FCC /* Info.plist */,
+				732747502550E32B000C6FCC /* Preview Content */,
+				733117422553732A00F0711D /* DadJokeAPI-Info.plist */,
+			);
+			path = Randodad;
+			sourceTree = "<group>";
+		};
+		732747502550E32B000C6FCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				732747512550E32B000C6FCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCD1929E81F8B5D820CBD651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				721E8FC4E45AA02A5A747EDF /* Pods_Randodad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F783693A3DFB01508FD0173C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				636BA8F0317CC4160612B90D /* Pods-Randodad.debug.xcconfig */,
+				43C18795A09DA9D7958B3AE8 /* Pods-Randodad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732747462550E329000C6FCC /* Randodad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7327476C2550E32B000C6FCC /* Build configuration list for PBXNativeTarget "Randodad" */;
+			buildPhases = (
+				EC5B7096788CE91176661569 /* [CP] Check Pods Manifest.lock */,
+				732747432550E329000C6FCC /* Sources */,
+				732747442550E329000C6FCC /* Frameworks */,
+				732747452550E329000C6FCC /* Resources */,
+				C0FED44123B1187FC0693BE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Randodad;
+			productName = Randodad;
+			productReference = 732747472550E32A000C6FCC /* Randodad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		732747572550E32B000C6FCC /* RandodadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7327476F2550E32B000C6FCC /* Build configuration list for PBXNativeTarget "RandodadTests" */;
+			buildPhases = (
+				732747542550E32B000C6FCC /* Sources */,
+				732747552550E32B000C6FCC /* Frameworks */,
+				732747562550E32B000C6FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7327475A2550E32B000C6FCC /* PBXTargetDependency */,
+			);
+			name = RandodadTests;
+			productName = RandodadTests;
+			productReference = 732747582550E32B000C6FCC /* RandodadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		732747622550E32B000C6FCC /* RandodadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732747722550E32B000C6FCC /* Build configuration list for PBXNativeTarget "RandodadUITests" */;
+			buildPhases = (
+				7327475F2550E32B000C6FCC /* Sources */,
+				732747602550E32B000C6FCC /* Frameworks */,
+				732747612550E32B000C6FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732747652550E32B000C6FCC /* PBXTargetDependency */,
+			);
+			name = RandodadUITests;
+			productName = RandodadUITests;
+			productReference = 732747632550E32B000C6FCC /* RandodadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7327473F2550E329000C6FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					732747462550E329000C6FCC = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					732747572550E32B000C6FCC = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 732747462550E329000C6FCC;
+					};
+					732747622550E32B000C6FCC = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 732747462550E329000C6FCC;
+					};
+				};
+			};
+			buildConfigurationList = 732747422550E329000C6FCC /* Build configuration list for PBXProject "Randodad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7327473E2550E329000C6FCC;
+			productRefGroup = 732747482550E32A000C6FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732747462550E329000C6FCC /* Randodad */,
+				732747572550E32B000C6FCC /* RandodadTests */,
+				732747622550E32B000C6FCC /* RandodadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732747452550E329000C6FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7331173E255368AA00F0711D /* launch-screen.png in Resources */,
+				73E3B9EE2551001F0093D059 /* awsconfiguration.json in Resources */,
+				733117432553732A00F0711D /* DadJokeAPI-Info.plist in Resources */,
+				732747522550E32B000C6FCC /* Preview Assets.xcassets in Resources */,
+				73E3B9ED2551001F0093D059 /* amplifyconfiguration.json in Resources */,
+				7327474F2550E32B000C6FCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732747562550E32B000C6FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732747612550E32B000C6FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0FED44123B1187FC0693BE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Randodad/Pods-Randodad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Randodad/Pods-Randodad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Randodad/Pods-Randodad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5B7096788CE91176661569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Randodad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732747432550E329000C6FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EB432425511B3E0055C0E1 /* SettingsView.swift in Sources */,
+				732747812550E6AC000C6FCC /* LoginView.swift in Sources */,
+				739DEAF2255104FC00762BAC /* ConfirmationView.swift in Sources */,
+				7327477C2550E4B8000C6FCC /* SignUpView.swift in Sources */,
+				7327474B2550E32A000C6FCC /* RandodadApp.swift in Sources */,
+				739DEAED255104BA00762BAC /* SessionManager.swift in Sources */,
+				732747862550E74F000C6FCC /* SessionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732747542550E32B000C6FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7327475F2550E32B000C6FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7327475A2550E32B000C6FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732747462550E329000C6FCC /* Randodad */;
+			targetProxy = 732747592550E32B000C6FCC /* PBXContainerItemProxy */;
+		};
+		732747652550E32B000C6FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732747462550E329000C6FCC /* Randodad */;
+			targetProxy = 732747642550E32B000C6FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7327476A2550E32B000C6FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7327476B2550E32B000C6FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7327476D2550E32B000C6FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636BA8F0317CC4160612B90D /* Pods-Randodad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Randodad/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Randodad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianclow.Randodad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7327476E2550E32B000C6FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C18795A09DA9D7958B3AE8 /* Pods-Randodad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Randodad/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Randodad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianclow.Randodad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		732747702550E32B000C6FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				INFOPLIST_FILE = RandodadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianclow.RandodadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Randodad.app/Randodad";
+			};
+			name = Debug;
+		};
+		732747712550E32B000C6FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				INFOPLIST_FILE = RandodadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianclow.RandodadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Randodad.app/Randodad";
+			};
+			name = Release;
+		};
+		732747732550E32B000C6FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				INFOPLIST_FILE = RandodadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianclow.RandodadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Randodad;
+			};
+			name = Debug;
+		};
+		732747742550E32B000C6FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A98HVA57P;
+				INFOPLIST_FILE = RandodadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianclow.RandodadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Randodad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732747422550E329000C6FCC /* Build configuration list for PBXProject "Randodad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7327476A2550E32B000C6FCC /* Debug */,
+				7327476B2550E32B000C6FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7327476C2550E32B000C6FCC /* Build configuration list for PBXNativeTarget "Randodad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7327476D2550E32B000C6FCC /* Debug */,
+				7327476E2550E32B000C6FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7327476F2550E32B000C6FCC /* Build configuration list for PBXNativeTarget "RandodadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732747702550E32B000C6FCC /* Debug */,
+				732747712550E32B000C6FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732747722550E32B000C6FCC /* Build configuration list for PBXNativeTarget "RandodadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732747732550E32B000C6FCC /* Debug */,
+				732747742550E32B000C6FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7327473F2550E329000C6FCC /* Project object */;
+}
