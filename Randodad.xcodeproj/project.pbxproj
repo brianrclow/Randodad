@@ -13,10 +13,10 @@
 		7327477C2550E4B8000C6FCC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327477B2550E4B8000C6FCC /* SignUpView.swift */; };
 		732747812550E6AC000C6FCC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732747802550E6AC000C6FCC /* LoginView.swift */; };
 		732747862550E74F000C6FCC /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732747852550E74F000C6FCC /* SessionView.swift */; };
-		7331173E255368AA00F0711D /* launch-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7331173D255368AA00F0711D /* launch-screen.png */; };
 		733117432553732A00F0711D /* DadJokeAPI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 733117422553732A00F0711D /* DadJokeAPI-Info.plist */; };
 		739DEAED255104BA00762BAC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739DEAEC255104BA00762BAC /* SessionManager.swift */; };
 		739DEAF2255104FC00762BAC /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739DEAF1255104FC00762BAC /* ConfirmationView.swift */; };
+		73DC38EB25548A170057B025 /* launch-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 73DC38EA25548A170057B025 /* launch-screen.png */; };
 		73E3B9ED2551001F0093D059 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 73E3B9EB2551001F0093D059 /* amplifyconfiguration.json */; };
 		73E3B9EE2551001F0093D059 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 73E3B9EC2551001F0093D059 /* awsconfiguration.json */; };
 		73EB432425511B3E0055C0E1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB432325511B3E0055C0E1 /* SettingsView.swift */; };
@@ -54,10 +54,10 @@
 		7327477B2550E4B8000C6FCC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		732747802550E6AC000C6FCC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		732747852550E74F000C6FCC /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
-		7331173D255368AA00F0711D /* launch-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch-screen.png"; path = "../../Desktop/launch-screen.png"; sourceTree = "<group>"; };
 		733117422553732A00F0711D /* DadJokeAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DadJokeAPI-Info.plist"; sourceTree = "<group>"; };
 		739DEAEC255104BA00762BAC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		739DEAF1255104FC00762BAC /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		73DC38EA25548A170057B025 /* launch-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch-screen.png"; path = "../../Dad_Jokes/launch-screen.png"; sourceTree = "<group>"; };
 		73E3B9EB2551001F0093D059 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
 		73E3B9EC2551001F0093D059 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		73EB432325511B3E0055C0E1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 				732747852550E74F000C6FCC /* SessionView.swift */,
 				73EB432325511B3E0055C0E1 /* SettingsView.swift */,
 				739DEAEC255104BA00762BAC /* SessionManager.swift */,
-				7331173D255368AA00F0711D /* launch-screen.png */,
+				73DC38EA25548A170057B025 /* launch-screen.png */,
 				7327474E2550E32B000C6FCC /* Assets.xcassets */,
 				73E3B9EB2551001F0093D059 /* amplifyconfiguration.json */,
 				73E3B9EC2551001F0093D059 /* awsconfiguration.json */,
@@ -260,11 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7331173E255368AA00F0711D /* launch-screen.png in Resources */,
 				73E3B9EE2551001F0093D059 /* awsconfiguration.json in Resources */,
 				733117432553732A00F0711D /* DadJokeAPI-Info.plist in Resources */,
 				732747522550E32B000C6FCC /* Preview Assets.xcassets in Resources */,
 				73E3B9ED2551001F0093D059 /* amplifyconfiguration.json in Resources */,
+				73DC38EB25548A170057B025 /* launch-screen.png in Resources */,
 				7327474F2550E32B000C6FCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

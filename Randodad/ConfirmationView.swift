@@ -19,6 +19,9 @@ struct ConfirmationView: View {
             Text("Username: \(username)")
             TextField("Confirmation Code", text:
                       $confirmationCode)
+                .disableAutocorrection(true)
+                .autocapitalization(.none)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             Button("Confirm", action: {
                 sessionManager.confirm(username: username, code: confirmationCode)
             })
