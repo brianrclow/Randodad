@@ -13,3 +13,8 @@ https://youtu.be/5cfMsoemWAE
 Here is a 40 second gif of what the app looks like!
 
 ![](Randodad.gif)
+
+
+## License
+
+[MIT](LICENSE)
